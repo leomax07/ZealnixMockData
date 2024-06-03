@@ -1,0 +1,22 @@
+.add__new__report__modal {
+  .buttons__container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: flex-end;
+  }
+  .input__container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 1rem;
+
+    .one__third {
+      width: 33%;
+    }
+
+    .adjust__top {
+      margin-top: 23px;
+    }
+  }
+}

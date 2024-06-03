@@ -1,0 +1,36 @@
+.date__picker__component {
+  .label {
+    display: block;
+    font-size: 14px;
+    font-family: SF pro Text;
+    font-weight: 500;
+    color: #474d66;
+    margin-bottom: 8px;
+  }
+  .p-inputtext {
+    height: 32px;
+    padding: 8px 12px;
+    width: 100% !important;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+  .p-inputwrapper {
+    height: 32px;
+  }
+  .p-button {
+    background-color: transparent !important;
+  }
+  .p-calendar {
+    width: 100%;
+  }
+  .calande__input__icon__container {
+    position: relative;
+
+    .calendar__icon {
+      position: absolute;
+      right: 9px;
+      top: 6px;
+      pointer-events: none;
+    }
+  }
+}

@@ -1,0 +1,155 @@
+.role__badge {
+  width: 200px !important;
+  height: 16px;
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #474d66;
+  background-color: #edeff5;
+  padding: 3px;
+}
+
+.active__badge {
+  display: inline-block;
+  background-color: #5fdcb3;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-bottom: 1px;
+}
+.inactive_badge {
+  display: inline-block;
+  background-color: #6b7a99;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-bottom: 1px;
+}
+
+.overlay__icon__click {
+  cursor: pointer;
+}
+
+.overlay__button__click {
+  display: inline-block;
+  border: 1px solid #d8dae5;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  color: #d8dae5;
+  cursor: pointer;
+}
+
+.staff__duration__container {
+  display: flex;
+  align-items: center;
+  .staff__duty__head {
+    color: #8f95b2;
+    font-size: 12px;
+    font-family: SF Pro Text;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    .pi {
+      margin-right: 3px;
+    }
+  }
+
+  .staff__duty__time {
+    color: #474d66;
+    font-size: 11px;
+    font-family: SF Pro Text;
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 2px;
+  }
+}
+
+.staff__grid__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  .card {
+    width: 250px;
+    height: 250px;
+    border: 1px solid #e6e8f0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 14px 23px;
+
+    .card__img__container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      .profile__img {
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    .card__text__container {
+      margin: 10 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .staff__name__container {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        flex-wrap: wrap;
+        .staff__name {
+          color: #474d66;
+          font-size: 16px;
+          font-family: SF Pro Text;
+          font-weight: 500;
+          line-height: 23px;
+          margin: 0 5px;
+        }
+        .staff__id {
+          color: #8f95b2;
+          font-size: 12px;
+          font-family: SF Pro Text;
+          line-height: 25px;
+        }
+      }
+      .staff__role {
+        margin-top: 5px;
+        margin-bottom: 10px;
+      }
+    }
+
+    .card__footer__container {
+      display: flex;
+      justify-content: space-between;
+      .card__action {
+        display: inline-block;
+        border: 1px solid #d8dae5;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        color: #d8dae5;
+      }
+    }
+  }
+  .card:hover {
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    box-shadow: 1px 0px 50px 0px rgba(208, 200, 200, 0.25);
+  }
+}

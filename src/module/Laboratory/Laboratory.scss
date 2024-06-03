@@ -1,0 +1,30 @@
+.laboratoryScreen__screen__container {
+	.laboratoryScreen__screen__header__container {
+		border-bottom: 1px solid $light-grey;
+		.header {
+			display: flex;
+			align-items: center;
+			gap: 10.5px;
+			font-family: SF Pro Text;
+			font-size: 24px;
+			font-weight: 600;
+			line-height: 32px;
+			letter-spacing: 0px;
+			text-align: left;
+			color: #474d66;
+			margin-bottom: 1rem;
+		}
+		.description {
+			font-family: SF Pro Text;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 20px;
+			letter-spacing: 0px;
+			text-align: left;
+			color: #474d66;
+		}
+	}
+	.labs__table__container {
+		margin-top: 24px;
+	}
+}

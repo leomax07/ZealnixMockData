@@ -1,0 +1,39 @@
+@import "../../variable.scss";
+
+.button__component__container {
+  .primary__button {
+    background-color: $primary-blue !important;
+  }
+
+  .p-button {
+    font-size: 12px;
+    height: 32px;
+    border-radius: 4px;
+  }
+  .button__image {
+    margin-right: 9px;
+  }
+}
+.outlined__container {
+  .outlined {
+    background-color: transparent;
+    color: $dark-grey;
+    border-color: $grey;
+
+    .p-button {
+      background-color: transparent !important;
+      border-color: $grey;
+    }
+
+    .p-button:enabled:hover {
+      background-color: $light-grey !important;
+      border-color: $grey !important;
+    }
+  }
+
+  .p-button:enabled:hover,
+  .p-button:not(button):not(a):not(.p-disabled):hover {
+    background-color: $light-grey !important;
+    border-color: $light-grey !important;
+  }
+}

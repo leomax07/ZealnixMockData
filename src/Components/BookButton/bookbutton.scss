@@ -1,0 +1,21 @@
+.buttonClass {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 25px;
+  gap: 8px;
+  width: 178px;
+  height: 32px;
+  background-color: #3366ff;
+  border-radius: 4px;
+}
+.textClassbook {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}

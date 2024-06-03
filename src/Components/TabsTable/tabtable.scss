@@ -1,0 +1,60 @@
+@import "./moduleControl.scss";
+.borderClass {
+	border-bottom: 1px solid #e6e8f0;
+}
+.doctorText {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	color: #101840;
+	padding: 30px;
+}
+.gridView {
+	width: 48px;
+	height: 32px;
+	background: #f3f6ff;
+	border: 1px solid #d8dae5;
+	border-radius: 4px 0px 0px 4px;
+	text-align: center;
+	padding-top: 7px;
+}
+.listView {
+	box-sizing: border-box;
+	width: 48px;
+	height: 32px;
+	background: #ffffff;
+	border: 1px solid #d8dae5;
+	border-radius: 0px 4px 4px 0px;
+	text-align: center;
+	padding-top: 7px;
+}
+.flexSort {
+	display: flex;
+	justify-content: flex-end;
+	padding: 20px 0px;
+}
+.searchClass {
+	padding-right: 10px;
+}
+.addbuttonClass {
+	padding-left: 20px;
+}
+.btn__align {
+	margin-left: 10px;
+}
+.asset__active__tab {
+	border-radius: none !important;
+	border-bottom: 2px solid #3366ff !important;
+	box-shadow: none !important;
+	background-color: #ffffff !important;
+	padding-top: none !important;
+	padding-bottom: 20px;
+}
+.ub-bblr_4px {
+	border-bottom-left-radius: unset !important;
+}
+.ub-bbrr_4px {
+	border-bottom-right-radius: unset !important;
+}

@@ -1,0 +1,30 @@
+.panel_bar_text {
+  font-family: "SF Pro Text";
+  font-size: 16px;
+  color: #474d66;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.panel_bar_head {
+  width: 809px;
+  height: 375px;
+  border: 2px solid #f0f0f0;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.panel_bar_flex {
+  display: flex;
+}
+.panel_bar_flex_box {
+  display: flex;
+  justify-content: space-between;
+}
+.panel_bar_chart_dot {
+  height: 3px;
+  width: 12px;
+  padding-left: 20px;
+}
+.panel_bar_tab_dot_flex {
+  display: flex;
+}

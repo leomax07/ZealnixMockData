@@ -1,0 +1,34 @@
+.signup__form__container {
+  padding: 53px 84px;
+  max-width: 806px;
+  background-color: $white;
+  margin-top: 74px;
+  width: 80%;
+
+  .signup__form__header {
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    color: $dark-grey;
+    font-weight: 500;
+    margin-bottom: 60px;
+  }
+
+  .form__container {
+    .two__input__container {
+      display: flex;
+      gap: 37px;
+      margin-bottom: 24px;
+      .half {
+        width: 50%;
+      }
+    }
+
+    .submit__button__container {
+      margin-top: 60px;
+      margin-bottom: 34px;
+      max-width: 330px;
+      margin-inline: auto;
+    }
+  }
+}

@@ -1,0 +1,87 @@
+​.parent {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.appointment__calendar__image {
+  padding-left: 20px;
+}
+.grid-container {
+  display: grid;
+  overflow: scroll;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  background-color: #ffffff;
+  border: 1px solid #e4e6e8;
+  padding: 7px;
+  font-size: 10px;
+  width: 250px;
+  text-align: center;
+}
+.appointment__calendar__card {
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 6px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    #3e7eff;
+  border-radius: 6px;
+}
+.line {
+  height: 63px;
+  width: 6px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background: linear-gradient(0deg, #3e7eff, #3e7eff), #3e7eff;
+}
+.appointment__calendar__text__color {
+  color: #3e7eff;
+  height: 21px;
+  width: 92px;
+  left: 14px;
+  top: 9px;
+  border-radius: nullpx;
+  margin-top: 10px;
+}
+.appointment__calendar__text__hours {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 18px;
+  color: #3e7eff;
+}
+.doctor-card {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+.appointment__calendar__doctor__name {
+  font-family: "SF Pro Text";
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 16px;
+  color: black;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.appointment__calendar__available__hours {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #636e95;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+}

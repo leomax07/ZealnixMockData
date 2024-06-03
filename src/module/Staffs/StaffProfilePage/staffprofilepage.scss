@@ -1,0 +1,131 @@
+@import url("./Reviews/review.scss");
+
+.staff_profilepage_text {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #474d66;
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+.staff_profilepage_card {
+  padding: 20px;
+  display: flex;
+}
+.staff_profilepage_body {
+  border: 1px solid #e4e6e8;
+  margin-top: 30px;
+}
+.staff__profilepage__flex_column {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.staff_profilepage_name {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  color: #474d66;
+  padding-bottom: 5px;
+}
+.staff_profilepage_id {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8f95b2;
+  padding-bottom: 5px;
+}
+.staff_profilepage_badge {
+  padding-bottom: 10px;
+  display: flex;
+  gap: 8px;
+}
+.ub-h_16px {
+  height: auto !important;
+}
+.staff_profilepage_tabs {
+  padding: 10px 20px 0px 20px;
+}
+.staff__profilepage__flex {
+  display: flex;
+  padding-top: 20px;
+  overflow-x: auto;
+}
+
+.staff_profilepage_calendar_flex {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e4e6e8;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+.staff_profilepage_upcoming {
+}
+.staff_profilepage_fullcalendar {
+  width: 80%;
+}
+
+.p-datepicker table td {
+  padding: 0px !important;
+}
+.p-datepicker {
+  border: none !important;
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button {
+  background-color: #2c3e50 !important;
+  border: none !important;
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-dayGridMonth-button {
+  color: white !important;
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridDay-button {
+  color: white !important;
+}
+.fc .fc-toolbar-title {
+  font-size: 15px !important;
+}
+.fc .fc-button-group {
+  height: 35px !important;
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridWeek-button,
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridDay-button {
+  color: white !important;
+}
+
+.staff_profilepage_diagnosis {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  width: 62rem;
+}
+
+.staff_profilepage_diagnosis::-webkit-scrollbar {
+  display: none !important;
+}
+.staff_profilepage_title_head {
+  font-family: "SF Pro Text";
+  font-weight: bold;
+  font-size: 20px;
+  color: #474d66;
+  padding: 30px 30px 10px 0px;
+}
+.staff__profilepage__flexSort {
+  display: flex;
+  padding: 20px;
+}
+.staff_profilepage_searchClass {
+  padding-right: 20px;
+}
+.staff_profilepage_header {
+  width: 70%;
+  margin-top: 10px;
+  font-family: "SF Pro Text";
+  font-weight: bold;
+  font-size: 16px;
+  color: #474d66;
+}

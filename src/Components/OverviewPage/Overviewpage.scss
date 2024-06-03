@@ -1,0 +1,19 @@
+.overview_page_head {
+  font-family: "SF Pro Text";
+  font-size: 18px;
+  font-weight: bold;
+  color: #474d66;
+}
+.overview_page_upcoming_head {
+  font-family: "SF Pro Text";
+  font-size: 18px;
+  font-weight: bold;
+  color: #474d66;
+  padding-bottom: 20px;
+}
+.overview_page_chart_flex {
+  display: grid;
+  grid-template-columns: 800px 1fr;
+  grid-column-gap: 20px;
+  padding: 10px;
+}

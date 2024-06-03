@@ -1,0 +1,150 @@
+.settings__screen__container {
+  .settings__screen__header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+
+    .header {
+      //styleName: Headline / H-800;
+      font-family: SF Pro Text;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+  }
+  .sub__text {
+    //styleName: Paragraph / P-200;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .body {
+    margin-top: 31px;
+    .header__container {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    .title {
+      font-family: SF Pro Text;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #64697d;
+    }
+
+    .icon__container {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background-color: #f7f7f7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .body__profile__details {
+      margin-top: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .image__container {
+        width: 67px;
+        height: 67px;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .details {
+        .label {
+          //styleName: Paragraph / P-200;
+          font-family: SF Pro Text;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0px;
+          text-align: left;
+          margin-bottom: 13px;
+          color: #474d66;
+        }
+        .name {
+          font-family: SF Pro Text;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 16px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+      }
+    }
+    .body__data__container {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      margin-top: 37px;
+
+      .each__item {
+        .label {
+          font-family: SF Pro Text;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+          color: #8f95b2;
+          margin-bottom: 8px;
+        }
+        .value {
+          font-family: SF Pro Text;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+      }
+    }
+    .subscription__container {
+      margin-top: 26px;
+      border-bottom: 1px solid $light-grey;
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+      .text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #64697d;
+        font-family: SF Pro Text;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+      .subcription__progress__container {
+        margin-top: 2rem;
+        .p-progressbar-label {
+          display: none;
+        }
+        .p-progressbar {
+          height: 8px;
+        }
+        .p-progressbar-value {
+          background: #3dd598;
+        }
+      }
+    }
+  }
+}

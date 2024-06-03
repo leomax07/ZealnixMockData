@@ -1,0 +1,54 @@
+.appointment__screen__container {
+	.appointment__screen__header__container {
+		border-bottom: 1px solid #ccd9eb;
+		.header {
+			display: flex;
+			align-items: center;
+			gap: 10.5px;
+			font-family: SF Pro Text;
+			font-size: 24px;
+			font-weight: 600;
+			line-height: 32px;
+			letter-spacing: 0px;
+			text-align: left;
+			color: #474d66;
+			margin-bottom: 1rem;
+		}
+		.description {
+			font-family: SF Pro Text;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 20px;
+			letter-spacing: 0px;
+			text-align: left;
+			color: #474d66;
+		}
+	}
+	.appointment__tab__container {
+		display: flex;
+		justify-content: space-between;
+	}
+	.appointments__header__container {
+		margin-top: 25px;
+		margin-bottom: 6px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.appointments__header__container__left {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 20px;
+		}
+		.date__container {
+			font-family: SF Pro Text;
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 32px;
+			letter-spacing: 0px;
+			text-align: left;
+			color: #474d66;
+			justify-self: flex-start;
+		}
+	}
+}

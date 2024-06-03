@@ -1,0 +1,13 @@
+@import "./components/SignupHeader.scss";
+@import "./components/signupForm.scss";
+
+.sigup__layout__component {
+  background: url(../../assets/signupWaves.svg);
+  min-height: 1300px;
+  padding: 32px 28px;
+
+  .signup__component__container {
+    display: flex;
+    justify-content: center;
+  }
+}

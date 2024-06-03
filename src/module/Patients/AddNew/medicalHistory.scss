@@ -1,0 +1,101 @@
+.medical__history__form {
+  .title {
+    color: $dark-grey;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-block: 24px 14px;
+  }
+  .reson__to__visit {
+    margin-bottom: 25px;
+  }
+  .drug__alergy__title {
+    .title {
+      margin-bottom: 4px;
+    }
+  }
+  .disease__list {
+    .title {
+      margin-bottom: 0;
+      margin-top: 24px;
+    }
+    .disease__list__checkbox {
+      .each__item {
+        margin-bottom: 10px;
+        span {
+          color: $dark-grey;
+          //styleName: Paragraph / P-200;
+          font-family: SF Pro Text;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+      }
+    }
+  }
+  .other__illness {
+    margin-bottom: 24px;
+    .title {
+      margin-bottom: 8px;
+    }
+  }
+  .operation__list__container {
+    margin-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid $light-grey;
+    .operation__list__item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+
+      .each__input {
+        width: 300px;
+      }
+    }
+  }
+  .habbits__radio__container {
+    .habbits__list__item {
+      .habbit__title {
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: 14px;
+        margin-bottom: 10px;
+        color: $dark-grey;
+      }
+      .each__habbit__radio {
+        color: $dark-grey;
+        //styleName: Paragraph / P-200;
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .comments__container {
+    .title {
+      margin-bottom: 4px;
+    }
+  }
+
+  .buttons__container {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 1rem;
+    justify-content: flex-end;
+  }
+}

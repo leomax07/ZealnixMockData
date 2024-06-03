@@ -1,0 +1,31 @@
+.overlap__avatar__container {
+  display: flex;
+  align-items: center;
+  .image__container {
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid white;
+    img {
+      width: 100%;
+    }
+  }
+  .move__to__left {
+    margin-left: -6px;
+  }
+  .remaining__count {
+    background-color: #d8d8eb;
+    //styleName: Paragraph / P-100;
+    font-family: SF Pro Text;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #696f8c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

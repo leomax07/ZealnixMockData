@@ -1,0 +1,65 @@
+.branches__index__component {
+  .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 34px;
+
+    .left {
+      font-family: SF Pro Text;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+}
+
+.p-overlaypanel .p-overlaypanel-content {
+  padding: 8px 0px !important;
+  width: 208px;
+}
+
+.overlay__icon__click {
+  cursor: pointer;
+}
+
+.table__overlay__component {
+  .header {
+    font-family: SF Pro Text;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 1rem;
+    margin-bottom: 8px;
+  }
+  .list__item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 1rem;
+    font-family: SF Pro Text;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-block: 10px;
+  }
+  .list__item:hover {
+    background-color: #ebf0ff;
+    border-left: 2px solid $primary-blue;
+  }
+  .blue__on__hover:hover {
+    color: $primary-blue;
+  }
+}

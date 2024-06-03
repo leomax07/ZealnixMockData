@@ -1,0 +1,47 @@
+.tab_component_border {
+  border-bottom: 1px solid #e4e6e8;
+}
+.tabs__container {
+  font-size: 12px;
+
+  .ub-fnt-fam_b77syt {
+    font-weight: 500 !important;
+  }
+
+  .each__tab {
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .ub-color_3366FF_75lazh[aria-current="page"],
+  .ub-color_3366FF_75lazh[aria-selected="true"] {
+    border-bottom: 1px solid;
+  }
+  .ub-bg-clr_F4F5F9_lt2bi9[aria-disabled="true"][aria-current="page"],
+  .ub-bg-clr_F4F5F9_lt2bi9[aria-selected="true"] {
+    background-color: white;
+  }
+  .ub-bs_13po50p_1bcl2f4:focus {
+    box-shadow: none;
+  }
+  .ub-bbrr_4px,
+  .ub-bblr_4px {
+    border-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+}
+
+.date__tab__container {
+  .each__tab {
+    border: 1px solid #d8dae5;
+    margin-right: 0 !important;
+    border-radius: 0;
+  }
+  .each__tab:first-child {
+    border-radius: 4px 0px 0px 4px !important ;
+  }
+  .each__tab:last-child {
+    border-radius: 0px 4px 4px 0px;
+  }
+}

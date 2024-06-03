@@ -1,0 +1,191 @@
+@mixin random-bgr() {
+  background: rgb(random(255), random(255), random(255));
+}
+.appointment__timeline__calander__container {
+  display: flex;
+  overflow-y: scroll;
+  .blue__arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    top: 48px;
+    border-radius: 0.8px;
+    border-top: 5px solid $primary-blue;
+  }
+  .left__resource__container {
+    .header {
+      background-color: #fbfbff;
+      min-width: max-content;
+      padding-block: 21px 22px;
+      min-height: 50px;
+      font-size: 10px;
+      line-height: 10px;
+      color: #696f8c;
+      text-align: start;
+      padding-left: 32px;
+      border-left: 1px solid $light-grey;
+      border-bottom: 1px solid $light-grey;
+      border-collapse: collapse;
+    }
+    .resource__each {
+      height: 70px;
+      border-left: 1px solid $light-grey;
+      border-bottom: 1px solid $light-grey;
+      border-collapse: collapse;
+      min-width: max-content;
+
+      .profile__container {
+        display: flex;
+        align-items: center;
+        padding-block: 11px;
+        padding-left: 32px;
+        margin-right: 25px;
+
+        .name {
+          font-family: SF Pro Text;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 26px;
+          letter-spacing: 0px;
+          text-align: left;
+          color: $dark-grey;
+          text-transform: capitalize;
+        }
+
+        .available__hours {
+          font-family: SF Pro Text;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 16px;
+          letter-spacing: 0px;
+          text-align: left;
+          color: $grey;
+        }
+
+        .image__container {
+          width: 47px;
+          height: 47px;
+          border-radius: 50%;
+          overflow: hidden;
+          gap: 10px;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .resource__timeline__table__container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* max-width: calc(100% - 277px); */
+    position: relative;
+    transition: all 300 ease;
+  }
+  .blue__line {
+    border: 2px solid $primary-blue;
+    height: 100%;
+    position: absolute;
+    top: 55px;
+    box-shadow: 0px 4px 4px rgba(51, 102, 255, 0.25);
+    z-index: 1000;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    border: 1px solid $light-grey;
+    border-collapse: collapse;
+  }
+  tr {
+    min-height: 50px;
+  }
+  .header__row {
+    background-color: #fbfbff;
+  }
+  .each__header {
+    min-width: 158px;
+    padding-block: 20px;
+    max-height: 50px;
+    font-size: 10px;
+    color: #696f8c;
+    text-align: start;
+    padding-left: 4px;
+    border-collapse: collapse;
+  }
+  .resource__timeline__row {
+    height: 70px;
+  }
+  .each__slots {
+    min-width: 158px;
+    position: relative;
+    text-align: center;
+  }
+  .booking__slot__helper__container {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 0.9)
+      ),
+      #3e7eff;
+    border-radius: 0px 6px 6px 0px;
+    padding: 9px 0px 13px 8px;
+    border-left: 6px solid #3e7eff;
+    position: absolute;
+    top: 4px;
+    cursor: pointer;
+
+    .title {
+      font-family: SF Pro Text;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 21px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #3e7eff;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    .time {
+      font-family: SF Pro Text;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 18px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #3e7eff;
+    }
+  }
+  .green__theme__slot {
+    border-left: 6px solid $green;
+    background: #e9f9ef;
+    .title {
+      color: $green;
+    }
+    .time {
+      color: $green;
+    }
+  }
+  .yellow__theme__slot {
+    border-left: 6px solid #ffc800;
+    background: #fff9e5;
+
+    .title,
+    .time {
+      color: $brown-text;
+    }
+  }
+  .pink__theme__slot {
+    border-left: 6px solid $pink;
+    background: $light-pink;
+
+    .title,
+    .time {
+      color: $pink;
+    }
+  }
+}

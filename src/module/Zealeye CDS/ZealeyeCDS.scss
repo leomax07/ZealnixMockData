@@ -1,0 +1,71 @@
+.container {
+  width: 100%;
+  background-color: #fff;
+  height: 80vh;
+  padding: 30px;
+  display: flex;
+}
+.sub_container {
+  border-right: 1px solid gray;
+  width: 30%;
+  height: 70vh;
+  align-items: center;
+}
+.New_chat {
+  background-color: #ebf0ff;
+  width: 85%;
+  height: 60px;
+  align-items: center;
+  text-align: center;
+  border: none;
+  border-radius: 11px;
+  color: #36f;
+  font-family: SF Pro Text;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: 20px;
+  padding-block: 19px;
+}
+.box_contaier {
+  width: 100%;
+  padding: 20px;
+}
+.Title_text {
+  text-align: center;
+}
+.grid_container {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 20px;
+  width: 100%;
+}
+.box {
+  width: 35%;
+}
+.box_text {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.sub_box {
+  background-color: #f7f9fb;
+  border-radius: 8px;
+  font-family: SF Pro Text;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-bottom: 1rem;
+  max-width: 236px;
+  padding: 4px 8px;
+  text-align: left;
+}
+.sub_box_text {
+  font-family: SF Pro Text;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  text-align: left;
+}

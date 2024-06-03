@@ -1,0 +1,38 @@
+.overview_card_body {
+  width: 250px;
+  height: 104px;
+  border: 1px solid #eff0f1;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.overview_card_title {
+  font-family: "SF Pro Text";
+  font-size: 12px;
+  color: #64748b;
+}
+.overview_card_flex {
+  display: flex;
+  padding: 30px;
+}
+.overview_card_sub_flex {
+  display: flex;
+
+  flex-direction: column;
+  padding-left: 20px;
+}
+.overview_card_number {
+  font-family: "SF Pro Text";
+  font-style: bold;
+  font-size: 18px;
+  color: #0f172a;
+  font-weight: bolder;
+  margin-right: 10px;
+}
+.overview_card_number_count_flex {
+  display: flex;
+  padding-top: 10px;
+}
+.over_card_main_flex {
+  display: flex;
+  padding: 30px;
+}

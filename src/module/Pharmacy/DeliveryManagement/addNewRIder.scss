@@ -1,0 +1,46 @@
+.add__new__rider__modal {
+  .p-dialog-content {
+    padding-top: 32px;
+  }
+
+  .p-dialog-header-icons {
+    display: none !important;
+  }
+
+  .add__new__header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: SF Pro text;
+    font-weight: 600;
+    size: 18px;
+
+    img {
+      cursor: pointer;
+    }
+  }
+  .add__new__form__container {
+    width: 656px;
+    margin-top: 32px;
+    .each__input {
+      margin-bottom: 32px;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      .left {
+        width: 327px;
+      }
+      .right {
+        flex-grow: 1;
+      }
+    }
+    .buttons__conatainer {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 1rem;
+      width: 100%;
+    }
+  }
+}

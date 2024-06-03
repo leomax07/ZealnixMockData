@@ -1,0 +1,197 @@
+.pharmacy__screen__container {
+  .pharmacy__screen__header__container {
+    border-bottom: 1px solid $light-grey;
+    .top__part {
+      margin-bottom: 1rem;
+      justify-content: space-between;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 10.5px;
+      font-family: SF Pro Text;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: $dark-grey;
+    }
+    .description {
+      font-family: SF Pro Text;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: $dark-grey;
+    }
+  }
+  .pharmacy__screen__body__container {
+    margin-top: 24px;
+    .header__container {
+      margin-bottom: 34px;
+
+      .header {
+        font-family: SF Pro Text;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+
+      .right {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+    }
+    .table__container {
+    }
+    .catrgory__table__style {
+      background-color: #edeff5;
+      padding: 2px 6px;
+      text-align: center;
+      text-transform: uppercase;
+      border-radius: 4px;
+    }
+    .in__stock__container {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      .p-progressbar-label {
+        display: none;
+      }
+      .green {
+        background: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.79),
+            rgba(255, 255, 255, 0.79)
+          ),
+          #5fdcb3;
+        height: 6px;
+        width: 56px;
+
+        .p-progressbar-value {
+          background-color: #5fdcb3 !important;
+        }
+      }
+      .yellow {
+        background: rgba(241, 143, 72, 0.2);
+        height: 6px;
+        width: 56px;
+
+        .p-progressbar-value {
+          background-color: #f18f48 !important;
+        }
+      }
+    }
+  }
+}
+
+.status__template__container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  .active__status__badge {
+    background-color: #5fdcb3;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+  .inactive__status__badge {
+    background-color: #6b7a99;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+  .completed__status__badge {
+    background-color: #52BD94;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+  .status {
+    text-transform: capitalize;
+  }
+}
+
+.appointment_status_container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  .cancelled__status__badge {
+    background-color: #ff1a1a;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+  .rescheduled__status__badge {
+    background-color: #6b7a99;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+  .completed__status__badge {
+    background-color: #3366ff;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+  .ongoing__status__badge {
+    background-color: #f9f921;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+  .upcoming__status__badge {
+    background-color: #52bd94;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+  .status {
+    text-transform: capitalize;
+  }
+}
+
+.in__stock__container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  .p-progressbar-label {
+    display: none !important;
+  }
+  .green {
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.79),
+        rgba(255, 255, 255, 0.79)
+      ),
+      #5fdcb3;
+    height: 6px;
+    width: 56px;
+
+    .p-progressbar-value {
+      background-color: #5fdcb3 !important;
+    }
+  }
+  .yellow {
+    background: rgba(241, 143, 72, 0.2);
+    height: 6px;
+    width: 56px;
+
+    .p-progressbar-value {
+      background-color: #f18f48 !important;
+    }
+  }
+}
+
+.pending__status__badge {
+  background-color: #FFC904;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+

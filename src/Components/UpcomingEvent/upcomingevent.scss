@@ -1,0 +1,29 @@
+.upcoming_event_text {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.188625px;
+  color: #344563;
+  padding-left: 15px;
+}
+.upcoming_event_head {
+  padding: 10px;
+}
+.upcoming_event_month {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #8f95b2;
+  padding-left: 15px;
+}
+.upcoming_event_scroll {
+  overflow-y: scroll;
+  // height: 250px;
+}
+.upcoming_event_scroll::-webkit-scrollbar {
+  display: none;
+}

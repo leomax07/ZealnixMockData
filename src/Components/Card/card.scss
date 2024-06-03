@@ -1,0 +1,59 @@
+.cardClass {
+  width: 250px;
+  height: 280px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+}
+.ImgClass {
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 20px;
+}
+.flexClassCard {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.nameClass {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #474d66;
+  padding: 5px;
+}
+.idClass {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8f95b2;
+  padding: 5px;
+}
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: #52bd94;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 9px;
+}
+.subTitle {
+  width: 96px;
+  height: 16px;
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #474d66;
+  background-color: #edeff5;
+  padding: 3px;
+}
+.divCenter {
+  text-align: center;
+}

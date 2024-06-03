@@ -1,0 +1,20 @@
+.add__new__modal {
+  .p-dialog-content {
+    padding-top: 32px;
+  }
+
+  .add__new__form__container {
+    .container__inputs__split {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 22px 24px;
+      margin-top: 22px;
+    }
+  }
+
+  .footer__button__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}

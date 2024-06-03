@@ -1,0 +1,56 @@
+.upcoming_event_card_flex {
+  background: #feffff;
+  border: 0.9375px solid #c1c7d0;
+  border-radius: 3.75px;
+  width: 65px;
+  height: 62px;
+  text-align: center;
+  margin-right: 15px;
+}
+.upcoming_event_card_date {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 16px;
+  color: #344563;
+  padding: 10px;
+}
+.upcoming_event_card_main_flex {
+  display: flex;
+  padding: 10px;
+}
+.upcoming_event_card_text_flex {
+  display: flex;
+  flex-direction: column;
+}
+.upcoming_event_card_title {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.188625px;
+  color: #344563;
+  padding: 3px;
+}
+.upcoming_event_card_time {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.188625px;
+  color: #344563;
+  padding: 3px;
+}
+.upcoming_event_card_name {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.188625px;
+  color: #344563;
+  padding: 2px;
+}

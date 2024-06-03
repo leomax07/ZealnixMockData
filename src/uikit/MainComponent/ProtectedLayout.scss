@@ -1,0 +1,25 @@
+.protected__layout__container {
+  .protected__layout__header {
+  }
+  .protected__layout__content__space {
+    display: flex;
+    .protected__layout__sidebar__container {
+      height: 100vh;
+      overflow-x: scroll;
+      min-width: max-content;
+    }
+    .main__content {
+      background-color: $default-background-grey;
+      padding: 23px 34px 27px 27px;
+      overflow-y: auto;
+      max-height: 100vh;
+      width: 100%;
+      height: calc(100vh - 55px);
+    }
+    .page__container {
+      background-color: white;
+      width: 100%;
+      padding: 34px 41px 48px 25px;
+    }
+  }
+}

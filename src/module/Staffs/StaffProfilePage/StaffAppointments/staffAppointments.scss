@@ -1,0 +1,134 @@
+.staff_profilepage_text {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #474d66;
+  margin-left: 10px;
+}
+.staff_profilepage_card {
+  padding: 20px;
+  display: flex;
+}
+.staff_profilepage_body {
+  border: 1px solid #e4e6e8;
+  margin-top: 30px;
+}
+.staff__profilepage__container {
+  display: flex;
+  overflow-x: auto;
+
+  .custom__apointment__timeline {
+    max-width: 72%;
+  }
+}
+.staff__profilepage__flex_column {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.staff_profilepage_name {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  color: #474d66;
+  padding-bottom: 5px;
+}
+.staff_profilepage_id {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8f95b2;
+  padding-bottom: 5px;
+}
+.staff_profilepage_badge {
+  padding-bottom: 10px;
+}
+.ub-h_16px {
+  height: auto !important;
+}
+.staff_profilepage_tabs {
+  padding: 20px 20px 0px 20px;
+  border-top: 1px solid #e4e6e8;
+}
+.staff__profilepage__flex {
+  display: flex;
+  width: 100%;
+  padding-top: 20px;
+  overflow-x: auto;
+}
+
+.staff_profilepage_calendar_flex {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e4e6e8;
+  border-radius: 4px;
+  margin-left: 20px;
+  flex: 1;
+}
+.staff_profilepage_upcoming {
+}
+.staff_profilepage_fullcalendar {
+  width: 80%;
+}
+
+.p-datepicker table td {
+  padding: 0px !important;
+}
+.p-datepicker {
+  border: none !important;
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button {
+  // background-color: #2c3e50 !important;
+  border: none !important;
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-dayGridMonth-button {
+  color: white !important;
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridDay-button {
+  color: white !important;
+}
+.fc .fc-toolbar-title {
+  font-size: 15px !important;
+}
+.fc .fc-button-group {
+  height: 35px !important;
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridWeek-button,
+.fc.fc-theme-standard .fc-toolbar .fc-button.fc-timeGridDay-button {
+  color: white !important;
+}
+.fc.fc-theme-standard .fc-view-harness th {
+  font-family: "SF Pro Text";
+  font-size: 14px;
+}
+.fc .fc-toolbar.fc-header-toolbar {
+  font-family: "SF Pro Text";
+}
+
+.fc .fc-timegrid-slot {
+  height: 4rem !important;
+  border: none !important;
+}
+
+fc,
+.fc *,
+.fc :after,
+.fc :before {
+  justify-content: center !important;
+}
+.fc-theme-standard td,
+.fc-theme-standard th {
+  /* border: 1px solid var(--fc-border-color); */
+  border: none !important;
+}
+.fc .fc-toolbar {
+  justify-content: space-between !important;
+}
+.fc.fc-theme-standard .fc-toolbar .fc-button {
+  background-color: #586fe5 !important;
+}

@@ -1,0 +1,59 @@
+.stats__container {
+  .title__container {
+    min-width: 210px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  .title {
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $dark-grey;
+  }
+  .numbers__container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 8px;
+
+    .number {
+      //styleName: Heading/H3;
+      font-family: Inter;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+    .status {
+      border-radius: 50px;
+      background-color: $light-grey;
+      padding: 4px 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .greenBg {
+      background-color: $light-green;
+      color: $green;
+    }
+    .redBg {
+      background-color: $light-pink;
+      color: $pink;
+    }
+  }
+  .light__text {
+    //styleName: body/small/semibold;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #64748b;
+  }
+}

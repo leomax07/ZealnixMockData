@@ -1,0 +1,72 @@
+@import "../../variable.scss";
+
+.module__control__container {
+  padding-block: 21px;
+  .module__control__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 17px;
+    padding: 21px 23px 0px 25px;
+  }
+  .left {
+    display: flex;
+    align-items: center;
+
+    .details__container {
+      .name {
+        font-weight: 500;
+        color: $black;
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .light__grey__text {
+    color: #696f8c;
+    font-family: "SF pro Display";
+  }
+  .email__and__phone {
+    padding-bottom: 16px;
+    border-bottom: 1px solid $light-grey;
+    padding-left: 25px;
+    font-size: 14px;
+  }
+  .tabs {
+    padding-left: 25px;
+    border-bottom: 1px solid $light-grey;
+    margin-top: 9px;
+  }
+  .body__container {
+    .body__header {
+      padding: 17px 34px 27px;
+      .header {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 12px;
+      }
+      .description {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: $grey;
+      }
+    }
+  }
+  .tables__container {
+    padding-inline: 14px 11px;
+  }
+  .gap__8 {
+    gap: 8px;
+  }
+}

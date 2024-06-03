@@ -1,0 +1,94 @@
+.patient__info__form {
+  .profile__picture {
+    max-width: 280px;
+    margin-top: 36px;
+    margin-bottom: 24px;
+  }
+  .patient__info__form {
+    margin-top: 36px;
+  }
+  .small__input {
+    min-width: 212px;
+    max-width: 216px;
+  }
+
+  .extra__small__input {
+    max-width: 146px;
+  }
+
+  .flex__input__container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .address__and__status {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 30px;
+    margin-bottom: 24px;
+  }
+  .flex__grow__input__container {
+    flex-grow: 2;
+  }
+  .seperator {
+    background-color: $light-grey;
+    opacity: 0.2;
+  }
+  .city__state {
+    margin-bottom: 47px;
+  }
+  .emergency__contact {
+    margin-bottom: 42px;
+    margin-top: 12px;
+  }
+  .taking__medication {
+    display: flex;
+    align-items: center;
+    margin-block: 42px;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $dark-grey;
+
+    .text {
+      margin-right: 20px;
+      //styleName: Paragraph / P-200;
+    }
+    .checkbox__container {
+      margin-right: 16px;
+    }
+  }
+  .current__medication {
+    display: flex;
+    .title {
+      font-family: SF Pro Text;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: $dark-grey;
+      min-width: 170px;
+      margin-right: 1rem;
+    }
+  }
+  .buttons__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 78px;
+    gap: 1rem;
+  }
+}
+
+.formik_error {
+  color: red;
+  font-size: 10px;
+  margin-left: 6px;
+}

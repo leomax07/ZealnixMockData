@@ -1,0 +1,33 @@
+.add__new__patients__container {
+  .page__header {
+    font-family: SF Pro Text;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $dark-grey;
+  }
+  .page__description {
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #474d66;
+    margin-block: 1rem 40px;
+  }
+  .small__header {
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $dark-grey;
+  }
+  .add__new__patient__stepper__tabs__container {
+    margin-top: 20px;
+  }
+}

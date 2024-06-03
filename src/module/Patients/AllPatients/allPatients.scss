@@ -1,0 +1,33 @@
+.patients__table__container {
+  .patients__table__header {
+    font-family: SF Pro Text;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .description {
+    //styleName: Paragraph / P-200;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #474d66;
+    margin-block: 1rem 40px;
+  }
+  .patients__table__filters__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+}

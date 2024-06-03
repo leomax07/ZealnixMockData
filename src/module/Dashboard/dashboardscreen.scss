@@ -1,0 +1,99 @@
+.card {
+	background-color: #fff;
+	padding: 20px 24px;
+}
+.dashbord__container {
+	margin-bottom: 40px;
+	.top__container {
+		display: flex;
+		gap: 24px;
+		justify-content: space-between;
+		align-items: center;
+
+		.v_s {
+			height: 72px;
+			border-left: 1px solid $light-grey;
+		}
+	}
+	.dashboard__row__2__container {
+		display: flex;
+		align-items: center;
+		gap: 18px;
+
+		.dashboard__row__2__bar {
+			max-width: 30%;
+			width: 100%;
+			// giving min-height because of the chart height problem
+			min-height: 308px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+
+			.top__part {
+				display: flex;
+				align-items: flex-start;
+				justify-content: space-between;
+
+				.left {
+					.title {
+						font-family: Inter;
+						font-size: 16px;
+						font-weight: 700;
+						line-height: 22px;
+						letter-spacing: 0em;
+						text-align: left;
+						color: $dark-grey;
+					}
+					.numbers {
+						//styleName: Heading/H5;
+						font-family: Inter;
+						font-size: 18px;
+						font-weight: 700;
+						line-height: 25px;
+						letter-spacing: 0.20000000298023224px;
+						text-align: left;
+					}
+					.stats {
+						display: flex;
+						gap: 8px;
+						align-items: center;
+
+						.status {
+							//styleName: body/small/medium;
+							font-family: Inter;
+							font-size: 12px;
+							font-weight: 500;
+							line-height: 19px;
+							letter-spacing: 0px;
+							text-align: left;
+							color: $pink;
+						}
+						.greenBg {
+							color: $green;
+						}
+					}
+				}
+			}
+		}
+	}
+	.dashboard__row__4__container {
+		display: flex;
+		align-items: flex-start;
+		gap: 18px;
+		.left {
+			//height: 364px;
+			max-width: calc(70% - 18px);
+			width: 100%;
+			background-color: green;
+		}
+		.right {
+			width: 100%;
+			max-width: 30%;
+			min-height: 100%;
+
+			.card {
+				height: 100%;
+			}
+		}
+	}
+}

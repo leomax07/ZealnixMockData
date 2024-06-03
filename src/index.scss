@@ -1,0 +1,159 @@
+@import "./variable.scss";
+@import "./uikit/MainComponent/ProtectedLayout.scss";
+@import "./Components/BookButton/bookbutton.scss";
+@import "./Components/Card/card.scss";
+@import "./Components/DoctorCard/doctorcard.scss";
+@import "./Components/Dots/dots.scss";
+@import "./Components/SearchInput/searchInput.scss";
+@import "./Components/Tab/tab.scss";
+@import "./Components/TimeSet/timeset.scss";
+@import "./uikit/MainComponent/Header/header.scss";
+@import "./module/Login/Login.scss";
+@import "./Components/index.component.scss";
+@import "./module/index.scss";
+@import "./module/Appointments/AppointmentsScreen.scss";
+
+@font-face {
+  font-family: "SF pro Display";
+  src: url(./font/FontsFree-Net-SFProDisplay-Thin.ttf);
+}
+
+@font-face {
+  font-family: "SF pro Display";
+  src: url(./font/FontsFree-Net-SFProDisplay-Light-1.ttf);
+}
+
+@font-face {
+  font-family: "SF pro Display";
+  font-weight: 400;
+  src: url(./font/FontsFree-Net-SFProDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: "SF pro Display";
+  font-weight: 700;
+  src: url(./font/FontsFree-Net-SFProDisplay-Semibold.ttf);
+}
+
+@font-face {
+  font-family: "SF pro Display";
+  font-weight: 700;
+  src: url(./font/FontsFree-Net-SFProDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: "SF pro Display";
+  font-weight: 900;
+  src: url(./font/FontsFree-Net-SFProDisplay-Heavy-1.ttf);
+}
+
+@font-face {
+  font-family: "SF pro Text";
+  font-weight: 100;
+  src: url(./font/SF-Pro-Text-Thin.otf);
+}
+
+@font-face {
+  font-family: "SF pro Text";
+  font-weight: 300;
+  src: url(./font/SF-Pro-Text-Light.otf);
+}
+
+@font-face {
+  font-family: "SF pro Text";
+  font-weight: 400;
+  src: url(./font/SF-Pro-Text-Regular.otf);
+}
+
+@font-face {
+  font-family: "SF pro Text";
+  font-weight: 500;
+  src: url(./font/SF-Pro-Text-Medium.otf);
+}
+
+@font-face {
+  font-family: "SF pro Text";
+  font-weight: 700;
+  src: url(./font/SF-Pro-Text-Bold.otf);
+}
+
+@font-face {
+  font-family: "SF pro Text";
+  font-weight: 900;
+  src: url(./font/SF-Pro-Text-Black.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow: hidden;
+}
+body {
+  font-family: SF Pro Text;
+  margin: 0;
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.mt__10 {
+  margin-top: 10px;
+}
+.flex {
+  display: flex;
+}
+.align__center {
+  align-items: center;
+}
+.space__between {
+  justify-content: space-between;
+}
+.pointer {
+  cursor: pointer;
+}
+.full__width {
+  min-width: 100%;
+}
+.primary__blue__text {
+  color: $primary-blue;
+}
+.dark__grey__color {
+  color: $dark-grey;
+}
+.blue__text {
+  color: $primary-blue;
+}
+.status__badge {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: green;
+  display: block;
+}
+.catrgory__style {
+  background-color: #edeff5;
+  padding: 2px 6px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 4px;
+  max-width: max-content;
+}
+.text__center {
+  text-align: center;
+}
+.flex__1 {
+  flex: 1;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+.p-datatable .p-datatable-tbody > tr:hover {
+  background-color: #3030320d !important;
+  cursor: pointer;
+}

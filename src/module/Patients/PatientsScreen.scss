@@ -1,0 +1,36 @@
+@import "../../variable.scss";
+.patient__screen__container {
+  .patience__screen__header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .patient__screen__header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: SF Pro Text;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: $dark-grey;
+    }
+  }
+  .description {
+    //styleName: Paragraph / P-200;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #474d66;
+    margin-top: 17.5px;
+    margin-bottom: 42px;
+  }
+  .top__part {
+    border-bottom: 1px solid $light-grey;
+    margin-bottom: 1rem;
+  }
+}

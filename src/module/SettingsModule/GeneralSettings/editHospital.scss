@@ -1,0 +1,41 @@
+.edit__modal__container {
+}
+.edit__modal {
+  .p-dialog-content {
+    border-radius: 4px;
+  }
+  .header__container {
+    padding-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: SF Pro Text;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  .file__upload {
+    max-width: 280px;
+  }
+  .each__item {
+    margin-bottom: 20px;
+  }
+  .two__input__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .half {
+      width: 268px;
+    }
+  }
+  .buttons__container {
+    margin-top: 48px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: end;
+  }
+}

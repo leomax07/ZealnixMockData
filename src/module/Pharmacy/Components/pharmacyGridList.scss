@@ -1,0 +1,120 @@
+.grid__page__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  width: 90%;
+  margin-inline: auto;
+
+  .card {
+    border: 1px solid #e6e8f0;
+    width: 219px;
+
+    .image__container {
+      width: 217px;
+      height: 110px;
+    }
+    .name {
+      font-family: SF Pro Text;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0px;
+      text-align: left;
+      display: flex;
+      align-items: center;
+
+      .drug__id {
+        font-family: SF Pro Text;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #8f95b2;
+        margin-left: 7px;
+        margin-right: 9px;
+      }
+    }
+    .details__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 17px;
+      padding-bottom: 19px;
+
+      .category {
+        background-color: #edeff5;
+        padding: 2px 6px;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 4px;
+        font-size: 11px;
+        line-height: 16px;
+        font-family: SF Pro Text;
+        font-weight: 600;
+      }
+      .second__line {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        margin-top: 14px;
+      }
+      .third__line {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: 17px;
+
+        .progress__container {
+          font-family: SF Pro Text;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 16px;
+          letter-spacing: 0px;
+          text-align: left;
+          display: flex;
+          align-items: center;
+          gap: 6px;
+
+          .p-progressbar-label {
+            display: none;
+          }
+          .green {
+            background: linear-gradient(
+                0deg,
+                rgba(255, 255, 255, 0.79),
+                rgba(255, 255, 255, 0.79)
+              ),
+              #5fdcb3;
+            height: 6px;
+            width: 56px;
+
+            .p-progressbar-value {
+              background-color: #5fdcb3 !important;
+            }
+          }
+          .yellow {
+            background: rgba(241, 143, 72, 0.2);
+            height: 6px;
+            width: 56px;
+
+            .p-progressbar-value {
+              background-color: #f18f48 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .manufacturer,
+  .light__text {
+    font-family: SF Pro Text;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #8f95b2;
+  }
+}

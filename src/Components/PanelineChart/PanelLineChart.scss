@@ -1,0 +1,44 @@
+.panel_line_chart_head {
+  width: 1125px;
+  height: 400px;
+  border: 2px solid #f0f0f0;
+  padding: 40px;
+  margin-top: 40px;
+}
+
+.panel_line_chart_patient_text {
+  font-family: "SF Pro Text";
+  font-weight: bold;
+  font-size: 16px;
+  color: #474d66;
+  padding: 10px;
+}
+.panel_line_chart_flex {
+  display: flex;
+  padding: 10px;
+}
+.panel_line_chart_count {
+  font-family: "SF Pro Text";
+  font-size: 18px;
+  color: #0f172a;
+  margin-right: 5px;
+}
+
+.panel_line_chart_percent {
+  font-family: "SF Pro Text";
+  font-size: 14px;
+  color: #24d164;
+  font-weight: bold;
+}
+.panel_line_chart_box_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.panel_line_chart_tab_dot_flex {
+  display: flex;
+}
+.panel_line_chart_dot {
+  height: 3px;
+  width: 12px;
+  padding-left: 20px;
+}

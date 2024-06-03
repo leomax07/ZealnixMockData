@@ -1,0 +1,121 @@
+.login__component__container {
+  max-width: 100vw;
+  max-height: 100vh;
+  height: 100vh;
+  display: flex;
+
+  .login__componet__left__container {
+    padding: 32px 28px;
+    width: 50%;
+    max-width: 620px;
+    min-height: 100%;
+    // background-image: url("../../assets/waves-bg.svg");
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
+    .login__component__left__container__header {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+
+      .login__component__left__conatainer__header__title {
+        color: rgb(119, 221, 231);
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 40px;
+        margin: 0;
+        padding-bottom: 5px;
+      }
+    }
+
+    .login__comoponent__left__container__body {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .login__component__left__container__title {
+        color:rgb(3, 56, 87);
+        max-width: 400px;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 500;
+        margin: 0;
+      }
+    }
+  }
+
+  .login__componet__right__container {
+    display: flex;
+    flex: 1;
+    min-height: 100%;
+    background-color: #e7e7e7;
+
+    .login__componet__right__container__form {
+      max-width: 336px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+      flex: 1;
+      margin: auto;
+      min-height: 100%;
+
+      .title {
+        color: $dark-grey;
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 14px;
+        line-height: 20px;
+      }
+
+      .sub__title {
+        font-size: 16px;
+        color: $grey;
+        font-family: SF pro Display;
+        line-height: 20px;
+        margin-bottom: 28px;
+      }
+
+      .input__container {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .password__container {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .remember__forgot__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 12px;
+        margin-bottom: 33px;
+      }
+
+      .button__container {
+        margin-bottom: 21px;
+      }
+
+      .register__signup {
+        font-size: 14px;
+        line-height: 20px;
+        color: $grey;
+        font-family: SF pro Display;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.error__message {
+  color: $pink;
+  font-size: small;
+  margin-top: 8px;
+}

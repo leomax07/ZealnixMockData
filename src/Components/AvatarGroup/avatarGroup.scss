@@ -1,0 +1,12 @@
+.avatar__group {
+  display: flex;
+  flex-direction: row;
+}
+.avatar__number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  background-color: rgb(90, 120, 238);
+  border-radius: 50%;
+}

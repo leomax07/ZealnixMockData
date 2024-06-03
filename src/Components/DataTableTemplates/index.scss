@@ -1,0 +1,298 @@
+.download__button__container {
+	padding: 10px 1rem;
+	border: 1px solid $light-grey;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.text__decoration {
+	text-decoration: none;
+	color: #101840;
+}
+.profile__img {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.status__template__container {
+	padding: 2px 6px;
+	text-transform: uppercase;
+	width: min-content;
+	border-radius: 4px;
+	white-space: nowrap;
+	p {
+		text-align: center;
+		font-family: SF Pro Text;
+		font-size: 11px;
+		font-weight: 600;
+		line-height: 16px;
+		letter-spacing: 0.20000000298023224px;
+		text-align: left;
+	}
+}
+.regular__status__template {
+	background-color: $light-grey;
+	color: $dark-grey;
+}
+.emergency__status__template {
+	background-color: $light-tan;
+	color: $brown-text;
+}
+.video__status__template {
+	background-color: $light-green;
+	color: $green-text;
+}
+
+.p-paginator .p-paginator-first,
+.p-paginator .p-paginator-prev,
+.p-paginator .p-paginator-next,
+.p-paginator .p-paginator-last,
+.p-paginator .p-paginator-page {
+	border-radius: 3px !important;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+	font-family: "SF Pro Text" !important;
+	font-style: normal !important;
+	font-weight: 500 !important;
+	font-size: 12px !important;
+	line-height: 16px !important;
+	color: #101840 !important;
+}
+
+.nameStyle {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	color: #101840;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.IdStyle {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #357dea !important;
+}
+.subTitleRow {
+	width: 96px;
+	height: 16px;
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing: 0.2px;
+	text-transform: uppercase;
+	color: #474d66;
+	background-color: #edeff5;
+	padding: 3px;
+}
+.dotGreen {
+	height: 7px;
+	width: 7px;
+	background-color: #52bd94;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.overlay__font {
+	color: red;
+	margin-left: 17px;
+}
+.profileBox {
+	padding: 8px 16px;
+	gap: 8px;
+	width: 94px;
+	height: 32px;
+	background: #ffffff;
+	border: 1px solid #d8dae5;
+	border-radius: 4px;
+	display: flex;
+}
+.flexAlign {
+	display: flex;
+}
+.timeClass {
+	width: 50%;
+}
+
+.p-column-title:nth-child(3) {
+	width: 120px !important;
+}
+
+.actionsContainer {
+	width: 100%;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+	font-family: "SF Pro Text" !important;
+	font-style: normal !important;
+	font-weight: 500 !important;
+	font-size: 12px !important;
+	line-height: 16px !important;
+	color: #101840 !important;
+}
+
+.nameStyle {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	color: #101840;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.IdStyle {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #357dea !important;
+}
+.subTitleRow {
+	width: 96px;
+	height: 16px;
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing: 0.2px;
+	text-transform: uppercase;
+	color: #474d66;
+	background-color: #edeff5;
+	padding: 3px;
+}
+.dotGreen {
+	height: 7px;
+	width: 7px;
+	background-color: #52bd94;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.dotRed {
+	height: 7px;
+	width: 7px;
+	background-color: #6b7a99;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.profileBox {
+	padding: 8px 16px;
+	gap: 8px;
+	width: 94px;
+	height: 32px;
+	background: #ffffff;
+	border: 1px solid #d8dae5;
+	border-radius: 4px;
+	display: flex;
+}
+.flexAlign {
+	display: flex;
+}
+// .timeClass {
+//   width: 50%;
+// }
+// .employeeIdClass div {
+//   width: 100px !important;
+// }
+
+// .table__staffs__id {
+//   width: 150px !important;
+// }
+
+.p-column-title:nth-child(3) {
+	width: 120px !important;
+}
+
+// .table__asset__id {
+//   width: 40rem !important;
+// }
+
+// .table__asset__inuse {
+//   width: 50rem !important;
+// }
+// .table__asset__maintenance {
+//   width: 50rem !important;
+// }
+// .table__asset__assign {
+//   width: 70rem !important;
+// }
+.table__assets__category {
+	width: 200px !important;
+	height: 16px;
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing: 0.2px;
+	text-transform: uppercase;
+	color: #474d66;
+	background-color: #edeff5;
+	padding: 3px;
+}
+
+.asset__table__maintenance__itemdetails {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #696f8c;
+}
+.asset__table__maintenance__reason {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #696f8c !important;
+}
+.asset__table__maintenance__date {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #696f8c;
+}
+.Inuse_assetid {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	color: #3366ff;
+}
+.table__asset__createdon {
+	width: 132px !important;
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #696f8c;
+}

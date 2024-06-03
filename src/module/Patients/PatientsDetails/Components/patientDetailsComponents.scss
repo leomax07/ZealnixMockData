@@ -1,0 +1,21 @@
+.patient__details__tables__header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+
+  .patient__details__right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .cslender__filter__conatainer {
+      width: 36px;
+      height: 36px;
+      border: 1px solid $light-grey;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

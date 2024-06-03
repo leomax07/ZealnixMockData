@@ -1,0 +1,63 @@
+.staffs__page__container {
+	.staffs__tabs__container {
+		margin-bottom: 24px;
+		border-bottom: 1px solid $light-grey;
+	}
+	.staff__table__container {
+		.staff__table__header {
+			margin-bottom: 34px;
+		}
+	}
+}
+
+.Staff-textClass {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	color: #474d66;
+	margin-left: 10px;
+}
+.Staff-flexClass {
+	display: flex;
+}
+.greyDiv {
+	background-color: white;
+	padding: 40px;
+	height: 100vh;
+	width: 100%;
+	overflow-y: scroll;
+}
+.greyDiv::-webkit-scrollbar {
+	display: none !important;
+}
+.Staff-description {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #474d66;
+	margin-top: 20px;
+}
+
+.p-component,
+.p-component * {
+	box-sizing: border-box;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 16px;
+	color: #696f8c;
+}
+.ub-bg_nrwqn2 {
+	background-color: white !important;
+}

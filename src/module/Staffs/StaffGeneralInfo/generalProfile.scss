@@ -1,0 +1,42 @@
+.staff__general__profile__container {
+  border: 1px solid $light-grey;
+  padding: 11px 19px;
+
+  .header {
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $dark-grey;
+    margin-bottom: 15px;
+  }
+  .details__container {
+    display: grid;
+    grid-template-columns: 150px 250px 200px auto;
+
+    .details {
+      margin-bottom: 42px;
+
+      .title {
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: $grey;
+      }
+      .detail {
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: $dark-grey;
+      }
+    }
+  }
+}

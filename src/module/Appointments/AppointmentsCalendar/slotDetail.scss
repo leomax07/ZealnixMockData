@@ -1,0 +1,107 @@
+.slot__details__container {
+  padding: 34px;
+
+  .header {
+    .profile__details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 34px;
+
+      .left {
+        display: flex;
+        gap: 11px;
+        .profile__image__container {
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+          img {
+            height: 100%;
+          }
+        }
+      }
+      .right {
+        font-family: SF Pro Text;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+
+        .grey__text {
+          color: $grey;
+          font-family: SF Pro Text;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+      }
+    }
+    .slot__progress__bar {
+      margin-bottom: 41px;
+      .labels__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        .left {
+          font-family: SF Pro Text;
+          font-size: 16px;
+
+          line-height: 20px;
+          letter-spacing: 0px;
+          text-align: left;
+          color: $dark-grey;
+        }
+      }
+
+      .p-progressbar-label {
+        display: none;
+      }
+      .p-progressbar {
+        height: 8px;
+      }
+      .p-progressbar-value {
+        background: #3dd598;
+      }
+    }
+    .sub__header {
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      .key__value {
+        display: flex;
+        align-items: center;
+
+        img {
+          margin-right: 5px;
+        }
+        .key {
+          font-family: SF Pro Text;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0px;
+          text-align: left;
+          color: grey;
+          margin-right: 3px;
+        }
+        .value {
+          font-family: SF Pro Text;
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

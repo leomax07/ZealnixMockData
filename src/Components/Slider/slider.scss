@@ -1,0 +1,26 @@
+.slider__component__container {
+  label {
+    display: block;
+    font-size: 14px;
+    font-family: sfPro-400;
+    font-weight: 500;
+    color: $dark-grey;
+    margin-bottom: 8px;
+  }
+  .p-slider.p-slider-horizontal {
+    height: 8px;
+    border-radius: 23.45px;
+  }
+  .p-slider .p-slider-range {
+    background-color: $primary-blue;
+    border-radius: 23.45px;
+  }
+  .p-slider .p-slider-handle {
+    height: 13px;
+    width: 13px;
+  }
+  .p-slider.p-slider-horizontal .p-slider-handle {
+    margin-top: -0.45rem;
+    margin-left: -0.4715rem;
+  }
+}

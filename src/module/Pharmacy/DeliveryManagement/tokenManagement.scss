@@ -1,0 +1,56 @@
+.pharmacy__screen__container {
+  .token__management__tokens__conatainer {
+    width: 650px;
+    margin-inline: auto;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 62px;
+
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: SF Pro Text;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: left;
+      .light__text {
+        font-family: SF Pro Text;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #7d8fb3;
+      }
+    }
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .title {
+      font-family: SF Pro Text;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+  }
+  .quotes__container {
+    .header {
+      border-top: 1px solid $light-grey;
+      padding-top: 40px;
+      margin-top: 2rem;
+    }
+  }
+  .body {
+    border-top: 1px solid $light-grey;
+  }
+}

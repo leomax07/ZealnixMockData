@@ -1,0 +1,15 @@
+.radio__container {
+  .align-items-center {
+    align-items: center;
+  }
+  .p-radiobutton .p-radiobutton-box {
+    height: 16px;
+    width: 16px;
+  }
+  .p-radiobutton-box.p-highlight .p-radiobutton-icon {
+    transform: translateZ(0) scale(0.7, 0.7);
+  }
+  .ml-2 {
+    margin-left: 12px;
+  }
+}

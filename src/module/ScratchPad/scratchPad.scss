@@ -1,0 +1,96 @@
+.scratchpad__page__container {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+
+    .title {
+      font-family: SF Pro Text;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #101840;
+    }
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+  .list__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin-top: 21px;
+
+    .card {
+      width: 200px;
+      background-color: #ffffff;
+      box-shadow: 0px 9px 28px 8px #0000000d;
+      padding: 1rem 1rem 0.5rem 1rem;
+
+      .tags__container {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        margin-bottom: 14px;
+
+        .tag {
+          padding: 4px;
+          color: #fa8c16;
+          border: 1px solid #ffd591;
+          border-radius: 3px;
+          background-color: #fff7e6;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: center;
+        }
+      }
+      .title {
+        font-family: SF Pro Text;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 13px;
+        color: #2e2e34;
+
+        .dot {
+          margin-right: 6px;
+          background-color: #ff5b26;
+        }
+      }
+      .notes {
+        font-family: SF Pro Text;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #2e2e34;
+      }
+      .date {
+        font-family: SF Pro Text;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $grey;
+        margin-top: 8px;
+      }
+    }
+  }
+}
+
+.scratchpad__Title__align {
+  display: flex;
+  justify-content: space-between;
+}

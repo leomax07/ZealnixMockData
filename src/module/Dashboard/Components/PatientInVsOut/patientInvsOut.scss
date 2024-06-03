@@ -1,0 +1,63 @@
+.patient__in__v__out {
+  .header {
+    margin-bottom: 25px;
+    .title {
+      font-family: SF Pro Display;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: $dark-grey;
+    }
+  }
+
+  .lengend__flex__evenly {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .status {
+      width: 10px;
+      height: 10px;
+      border-radius: 10px;
+    }
+    .each__legend {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: SF Pro Text;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 19px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: grey;
+    }
+    .inpatient {
+      .status {
+        background-color: $primary-blue;
+      }
+    }
+    .outpatient {
+      .status {
+        background-color: #38bdf8;
+      }
+    }
+    .General {
+      .status {
+        background-color: #0000ff;
+      }
+    }
+    .Emergency {
+      .status {
+        background-color: #ffa500;
+      }
+    }
+    .ICU {
+      .status {
+        background-color: #ff0000;
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.order__details__container {
+  padding: 33px 22px;
+
+  .header__container {
+    border-bottom: 1px solid $light-grey;
+    padding-bottom: 1rem;
+    .header {
+      font-family: SF Pro Text;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-bottom: 1rem;
+    }
+
+    .line {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      gap: 27px;
+      font-size: 14px;
+      .each__item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        .label {
+          color: #696f8c;
+        }
+        .nameStyle {
+          padding-top: 0 !important;
+          font-family: SF Pro Text;
+          font-size: 16px !important;
+          font-weight: 500 !important;
+          line-height: 16px !important;
+          letter-spacing: 0px !important;
+          text-align: left;
+        }
+        .flexAlign {
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .body {
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      .left {
+        font-family: SF Pro Text;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+    }
+  }
+}

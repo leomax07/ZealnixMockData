@@ -1,0 +1,14 @@
+.add__new__staff__container {
+  .staff__details__container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 22px 24px;
+    margin-top: 22px;
+  }
+}
+
+.newStaff__footer__Container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

@@ -1,0 +1,16 @@
+.time__picker__container {
+  label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: $dark-grey;
+    margin-bottom: 8px;
+  }
+  input {
+    height: 32px;
+    padding: 8px 12px;
+    width: 100%;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+}

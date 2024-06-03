@@ -1,0 +1,44 @@
+.stpper__tab__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+
+  .each__step {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+  }
+  .index {
+    height: 16px;
+    width: 16px;
+    border-radius: 4px;
+    background-color: #edeff5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: SF Pro Text;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .label {
+    font-family: SF Pro Text;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #696f8c;
+    text-transform: capitalize;
+  }
+  .label__selected {
+    color: $primary-blue;
+  }
+  .index__selected {
+    background-color: #d6e0ff;
+    color: $primary-blue;
+  }
+}

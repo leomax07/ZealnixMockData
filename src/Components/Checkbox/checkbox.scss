@@ -1,0 +1,26 @@
+.checkbox__input__container {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: $dark-grey;
+
+  .p-checkbox {
+    width: 18px !important;
+    height: 18px !important;
+  }
+
+  .p-checkbox-box {
+    border: 1px solid #d4d4d4 !important;
+    border-radius: 2px !important;
+    width: 18px !important;
+    height: 18px !important;
+  }
+
+  .p-checkbox .p-checkbox-box.p-highlight {
+    background-color: $primary-blue !important;
+  }
+
+  .p-checkbox .p-checkbox-box .p-checkbox-icon {
+    font-size: 10px !important;
+  }
+}

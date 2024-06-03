@@ -1,0 +1,21 @@
+.dropdown__component__container {
+  .p-dropdown {
+    height: 32px;
+  }
+  .p-inputtext {
+    padding: 7.25px 14.5px !important;
+    font-size: 12px;
+  }
+  .label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #474d66;
+    margin-bottom: 8px;
+  }
+}
+
+.required__label {
+  color: red;
+  margin-left: 4px;
+}

@@ -1,0 +1,19 @@
+.add__appointment__modal__container {
+  .two__input__container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .half {
+    width: 50%;
+  }
+  .one__input__container {
+    margin-bottom: 24px;
+  }
+  .buttons__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
